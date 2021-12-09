@@ -92,7 +92,7 @@
                 "/home/jai/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/fb_gfx",
                 "/home/jai/.arduino15/packages/esp32/hardware/esp32/1.0.6/cores/esp32",
                 "/home/jai/.arduino15/packages/esp32/hardware/esp32/1.0.6/variants/doitESP32devkitV1",
-                "/home/jai/Arduino/libraries/FastLED/src",
+                "/home/jai/Arduino/libraries/Rtc_by_Makuna/src",
                 "/home/jai/.arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/1.22.0-97-gc752ad5-5.2.0/xtensa-esp32-elf/include/c++/5.2.0",
                 "/home/jai/.arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/1.22.0-97-gc752ad5-5.2.0/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf",
                 "/home/jai/.arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/1.22.0-97-gc752ad5-5.2.0/xtensa-esp32-elf/include/c++/5.2.0/backward",

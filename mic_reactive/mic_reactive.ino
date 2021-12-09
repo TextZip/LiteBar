@@ -28,7 +28,7 @@ void setup() {
 void loop()
 {
   s=analogRead(36);
-  s=s/3.5;
+  s=s/2;
 // Serial.println(s);
 // delay(50);
   if((s>=450)&&(s<=550))
@@ -59,7 +59,7 @@ void loop()
    }
    else if((s>=250)&&(s<=275))
    {
-     leds[(NUM_LEDS/2)-1]=CRGB (230, 0, 10);
+     leds[(NUM_LEDS/2)- 1]=CRGB (230, 0, 10);
     leds[NUM_LEDS/2]=CRGB (230, 0, 10);
    }
   else if((s>=235)&&(s<=250))
