@@ -2,5 +2,5 @@
     "configuration": "FlashFreq=80,UploadSpeed=921600,DebugLevel=none",
     "board": "esp32:esp32:esp32doit-devkit-v1",
     "port": "/dev/ttyUSB0",
-    "sketch": "clock_demo/clock_demo.ino"
+    "sketch": "mic_reactive/mic_reactive.ino"
 }

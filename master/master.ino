@@ -13,6 +13,7 @@
 
 int hours;
 int minutes;
+char time[6];
 
 ThreeWire myWire(27,14,25); // IO, SCLK, CE
 RtcDS1302<ThreeWire> Rtc(myWire);
@@ -28,13 +29,8 @@ void loop ()
     RtcDateTime now = Rtc.GetDateTime();
 
     String timee = printDateTime(now);
-    Serial.println(timee);
-    // char time[6];
-    // timee.toCharArray(time,6);
-    // for(int i = 0; i<6; i++){
-    // Serial.print(time[i]);
-    // }
-    // Serial.println("");
+    timee.toCharArray(time,6);
+    Serial.println(time);
 
     if (!now.IsValid())
     {
@@ -43,6 +39,8 @@ void loop ()
 
     delay(5000); // five seconds
 }
+
+
 
 
 String printDateTime(const RtcDateTime& dt)
