@@ -27,65 +27,65 @@ void setup() {
 }
 void loop()
 {
-//  s=analogRead(36);
-//  s=s/2;
+  s=analogRead(36);
+  s=s/2;
 
 //  Serial.println(s);
 //  delay(50);
 //
-//  if((s>=450)&&(s<=550))
-//  {
-//    leds[(NUM_LEDS/2)-1]=CRGB (0, 0, 255);
-//    leds[NUM_LEDS/2]=CRGB (0, 0, 255);
-//  }
-//  else if((s>=400)&&(s<=450))
-//  {
-//    leds[(NUM_LEDS/2)-1]=CRGB (153, 153, 0);
-//    leds[NUM_LEDS/2]=CRGB (153, 153, 0);
-//  }
-//  else if((s>=350)&&(s<=400))
-//   {
-//     leds[(NUM_LEDS/2)-1]=CRGB (255, 50, 255);
-//    leds[NUM_LEDS/2]=CRGB (255, 50, 255);
-//   }
-//   else if((s>=300)&&(s<=350))
-//  {
-//    leds[(NUM_LEDS/2)-1]=CRGB (10, 25, 217);
-//    leds[NUM_LEDS/2]=CRGB (10, 25, 217);
-//  }
-//
-//    else if((s>=276)&&(s<=300))
-//   {
-//     leds[(NUM_LEDS/2)-1]=CRGB (50, 50, 150);
-//    leds[NUM_LEDS/2]=CRGB (50, 50, 150);
-//   }
-//   else if((s>=250)&&(s<=275))
-//   {
-//     leds[(NUM_LEDS/2)- 1]=CRGB (230, 0, 10);
-//    leds[NUM_LEDS/2]=CRGB (230, 0, 10);
-//   }
-//  else if((s>=235)&&(s<=250))
-//   {
-//     leds[(NUM_LEDS/2)-1]=CRGB (0, 160, 0);
-//    leds[NUM_LEDS/2]=CRGB (0, 160, 0);
-//   }
-//   else if((s>=200)&&(s<=230))
-//   {
-//     leds[(NUM_LEDS/2)-1]=CRGB (100, 0, 100);
-//    leds[NUM_LEDS/2]=CRGB (100, 0, 100);
-//   }
-//  else
-//  {
-//     leds[(NUM_LEDS/2)-1] = CRGB ( 0,0,0);
-//     leds[NUM_LEDS/2] = CRGB ( 0,0,0);
-//  }
-//    for (int i = 0; i <= ((NUM_LEDS/2)-2); i++) 
-//  {
-//     leds[i] = leds[i+1];
-//     leds[NUM_LEDS-1-i] = leds[(NUM_LEDS)-i-2];
-//     
-//  }
-// FastLED.show();
-// delay(15);
+  if((s>=450)&&(s<=550))
+  {
+    leds[(NUM_LEDS/2)-1]=CRGB (0, 0, 255);
+    leds[NUM_LEDS/2]=CRGB (0, 0, 255);
+  }
+  else if((s>=400)&&(s<=450))
+  {
+    leds[(NUM_LEDS/2)-1]=CRGB (153, 153, 0);
+    leds[NUM_LEDS/2]=CRGB (153, 153, 0);
+  }
+  else if((s>=350)&&(s<=400))
+   {
+     leds[(NUM_LEDS/2)-1]=CRGB (255, 50, 255);
+    leds[NUM_LEDS/2]=CRGB (255, 50, 255);
+   }
+   else if((s>=300)&&(s<=350))
+  {
+    leds[(NUM_LEDS/2)-1]=CRGB (10, 25, 217);
+    leds[NUM_LEDS/2]=CRGB (10, 25, 217);
+  }
+
+    else if((s>=276)&&(s<=300))
+   {
+     leds[(NUM_LEDS/2)-1]=CRGB (50, 50, 150);
+    leds[NUM_LEDS/2]=CRGB (50, 50, 150);
+   }
+   else if((s>=250)&&(s<=275))
+   {
+     leds[(NUM_LEDS/2)- 1]=CRGB (230, 0, 10);
+    leds[NUM_LEDS/2]=CRGB (230, 0, 10);
+   }
+  else if((s>=235)&&(s<=250))
+   {
+     leds[(NUM_LEDS/2)-1]=CRGB (0, 160, 0);
+    leds[NUM_LEDS/2]=CRGB (0, 160, 0);
+   }
+   else if((s>=200)&&(s<=230))
+   {
+     leds[(NUM_LEDS/2)-1]=CRGB (100, 0, 100);
+    leds[NUM_LEDS/2]=CRGB (100, 0, 100);
+   }
+  else
+  {
+     leds[(NUM_LEDS/2)-1] = CRGB ( 0,0,0);
+     leds[NUM_LEDS/2] = CRGB ( 0,0,0);
+  }
+    for (int i = 0; i <= ((NUM_LEDS/2)-2); i++) 
+  {
+     leds[i] = leds[i+1];
+     leds[NUM_LEDS-1-i] = leds[(NUM_LEDS)-i-2];
+     
+  }
+ FastLED.show();
+ delay(10);
 
 }
